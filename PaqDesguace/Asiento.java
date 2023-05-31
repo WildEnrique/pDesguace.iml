@@ -6,6 +6,8 @@ public class Asiento extends Pieza{
     private String color;
     private String tipo;
     private int incremento;
+    private int xd;
+    private int juan;
 
     public Asiento(int numPieza, String descripción, double precio, int stock, String material, String color, String tipo) {
         super(numPieza, descripción, precio, stock);
